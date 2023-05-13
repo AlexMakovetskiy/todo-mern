@@ -1,0 +1,21 @@
+{
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 8
+    },
+    "rules": {
+        "no-console": "warn",
+        "quotes": ["warn", "single"],
+        "jsx-quotes": ["warn", "prefer-double"],
+        "prefer-const": "error",
+        "indent": ["warn", 4],
+        "max-len": ["error", {"code": 160}],
+        "comma-dangle": ["error", "always-multiline"],
+        "semi": ["warn", "always"]
+    } 
+}
